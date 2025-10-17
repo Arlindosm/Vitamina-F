@@ -19,6 +19,8 @@ body {
 
 img {
     height: 150px;
+     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .categoria-videos {
