@@ -4,7 +4,13 @@ body {
     font-family: Arial static;
     font-weight: bold;
 }
-
+.chamada {
+    background-color: rgb(10, 2, 43);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
 
 
 
