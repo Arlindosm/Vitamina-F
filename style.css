@@ -10,7 +10,7 @@ body {
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .chamada-texto {
