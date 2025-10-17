@@ -3,27 +3,7 @@ body {
     color: white;
     font-family: Arial static;
     font-weight: bold;
-}
-
-.categoria h1 {
-    background-color: rgb(10, 2, 43);
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.categoria h2{
-    margin-right: 5%;
-}
-img {
-    height: 200px;
-}
-
-
-.categoria h2 {
-    color: rgb(250, 244, 244);
-}
-
-h1 {
+    h1 {
     font-size: 25px;
 }
 
@@ -31,3 +11,5 @@ p {
     font-size: 25px;
 
 }
+}
+
