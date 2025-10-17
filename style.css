@@ -1,47 +1,57 @@
 body {
-    background-color: rgb(223, 66, 210);
+    background-color: rgb(59, 2, 2);
     color: white;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial static;
     font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: center;
 }
 
 .chamada {
     background-color: rgb(10, 2, 43);
-    padding: 60px 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-    max-width: 600px;
-    margin: 80px auto;
 }
 
-.chamada h1 {
-    font-size: 2.2em;
-    margin-bottom: 10px;
-    font-family: 'Charm', cursive;
+.chamada-texto {
+    margin-right: 5%;
 }
 
-.chamada h2 {
-    font-size: 1.6em;
-    margin-bottom: 20px;
-    font-family: 'Bellefair', serif;
+img {
+    height: 200px;
 }
 
-.chamada p {
-    font-size: 1.3em;
-    margin-bottom: 20px;
+.categoria-videos {
+
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
 
-.chamada img {
-    width: 250px;
-    height: auto;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
-    margin-top: 20px;
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.categoria-videos img {
+
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+}
+
+.categoria h2 {
+    color: rgb(250, 244, 244);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
 }
