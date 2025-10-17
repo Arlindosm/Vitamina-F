@@ -9,14 +9,11 @@ body {
     background-color: rgb(10, 2, 43);
     padding-top: 40px;
     padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
 }
 
 .categoria h2{
     margin-right: 5%;
 }
-
 img {
     height: 200px;
 }
@@ -32,4 +29,5 @@ h1 {
 
 p {
     font-size: 25px;
+
 }
