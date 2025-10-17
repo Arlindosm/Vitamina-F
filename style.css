@@ -1,14 +1,47 @@
 body {
-    background-color: rgb(223, 66, 210);
-    color: white;
-    font-family: Arial static;
-    font-weight: bold;
+  background-color: rgb(223, 66, 210); /* fundo rosa-violeta */
+  color: white;
+  font-family: 'Arial', sans-serif; /* corrigido: 'Arial static' não existe */
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .chamada {
-    background-color: rgb(10, 2, 43);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
+  background-color: rgb(10, 2, 43); /* fundo roxo escuro */
+  padding: 60px 20px; /* mais espaçamento e lateral */
+  display: flex;
+  flex-direction: column; /* organiza o conteúdo na vertical */
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  max-width: 600px;
+  margin: 80px auto; /* centraliza a seção na tela */
+}
+
+.chamada h1 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+  font-family: 'Charm', cursive; /* uma das fontes românticas que você importou */
+}
+
+.chamada h2 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  font-family: 'Bellefair', serif;
+}
+
+.chamada p {
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
+
+.chamada img {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  margin-top: 20px;
 }
